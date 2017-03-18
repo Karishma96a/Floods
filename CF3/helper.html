@@ -1,0 +1,134 @@
+<html>
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="x.jpeg" alt="Chania" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="p.jpeg" alt="Chania" width="460" height="345">
+      </div>
+    
+      <div class="item">
+        <img src="w.jpg" alt="Flower" width="460" height="345">
+      </div>
+
+      <div class="item">
+        <img src="z.jpg" alt="Flower" width="460" height="345">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+<form method="get" action="hello3">
+<br><br>
+<div style="font-size:180%";>
+<center>
+<b>
+Choose the location that you can go to (The messages of the affected people in and around the location will be displayed): </b> <br><br>
+
+Area: <select name="areas1">
+  <option value="Adambakkam">Adambakkam</option>
+  <option value="Adyar">Adyar</option>
+  <option value="Alwarpet">Alwarpet</option>
+  <option value="AnnaNagar">Anna Nagar</option>
+   <option value="Besant Nagar">Besant Nagar</option>
+  <option value="Chrompet">Chrompet</option>
+  <option value="Egmore">Egmore</option>
+  <option value="Ennore">Ennore</option>
+   <option value="Gopalapuram">Gopalapuram</option>
+  <option value="KKNagar">KK Nagar</option>
+  <option value="Kelambakkam">Kelambakkam</option>
+  <option value="Kodambakkam">Kodambakkam</option>
+   <option value="Kilpauk">Kilpauk</option>
+  <option value="Kottivakkam">Kottivakkam</option>
+  <option value="Kovalam">Kovalam</option>
+  <option value="Koyembedu">Koyembedu</option>
+   <option value="Mandaveli">Mandaveli</option>
+  <option value="MGRNagar">MGR Nagar</option>
+  <option value="Moggapair">Moggapair</option>
+  <option value="MountRoad">Mount Road</option>
+   <option value="Mylapore">Mylapore</option>
+  <option value="Nandanam">Nandanam</option>
+  <option value="Navallur">Navallur</option>
+  <option value="Neelangarai">Neelangarai</option>
+   <option value="Nungambakkam">Nungambakkam</option>
+  <option value="Padi">Padi</option>
+  <option value="Pallavakkam">Palavakkam</option>
+  <option value="Pallavaram">Pallavaram</option>
+   <option value="Pallikaranai">Pallikaranai</option>
+  <option value="Pammal">Pammal</option>
+  <option value="ParrysCorner">Parrys Corner</option>
+  <option value="Perambur">Perambur</option>
+   <option value="Perungalathur">Perungalathur</option>
+  <option value="Perunkudi">Perunkudi</option>
+  <option value="Poonamalli">Poonamalli</option>
+  <option value="Porur">Porur</option>
+   <option value="Purasaiwalkam">Purasaiwalkam</option>
+  <option value="RedHills">Red Hills</option>
+  <option value="Royapettah">Royapettah</option>
+  <option value="Royapuram">Royapuram</option>
+   <option value="Saidapet">Saidapet</option>
+  <option value="SaliGramam<">SaliGramam</option>
+  <option value="Santhome">Santhome</option>
+  <option value="Shollinganallur">Shollinganallur</option>
+  <option value="Sowcarpet">Sowcarpet</option>
+  <option value="Tambaram">Tambaram</option>
+   <option value="Teynampet">Teynampet</option>
+  <option value="Taramani">Taramani</option>
+  <option value="TNagar">T Nagar</option>
+  <option value="Thiruvanmiyur">Thiruvanmiyur</option>
+   <option value="Thondaiyarpet">Thondaiyarpet</option>
+  <option value="Vandalur">Vandalur</option>
+  <option value="Vadapalani">Vadapalani</option>
+  <option value="Valasarawalkam">Valasarawalkam</option>
+  <option value="Velachery">Velachery</option>
+  <option value="Villiwalkam">Villiwalkam</option>
+   <option value="Virugambakkam">Virugambakkam</option>
+  <option value="Vyasarpadi">Vyasarpadi</option>
+  <option value="Washermanpet">Washermanpet</option>
+  <option value="WestMambalam">West Mambalam</option>
+   
+
+</select><br><br>
+
+<input type="submit" value="submit"></div>
+</center>
+</form>
